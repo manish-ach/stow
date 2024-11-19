@@ -1,0 +1,32 @@
+2024-11-18 18:26:10.329 [info] Extension host with pid 3648 started
+2024-11-18 18:26:10.329 [info] Skipping acquiring lock for /home/manish-ach/.config/Code - OSS/User/workspaceStorage/64e17f92f63dee7ef01863b5e86e98d8.
+2024-11-18 18:26:10.641 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-18 18:26:10.671 [info] ExtensionService#_doActivateExtension ewen-lbh.vscode-hyprls, startup: false, activationEvent: 'onLanguage:hyprlang'
+2024-11-18 18:26:10.738 [info] ExtensionService#_doActivateExtension fireblast.hyprlang-vscode, startup: false, activationEvent: 'onLanguage:hyprlang'
+2024-11-18 18:26:10.831 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-18 18:26:10.870 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-18 18:26:10.967 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-18 18:26:11.044 [info] Eager extensions activated
+2024-11-18 18:26:11.079 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 18:26:11.081 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 18:26:11.112 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 18:26:11.131 [info] ExtensionService#_doActivateExtension zokugun.cron-tasks, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 18:26:11.199 [info] ExtensionService#_doActivateExtension zokugun.vsix-manager, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 18:26:11.816 [error] Launching server using command hyprls failed. Error: spawn hyprls ENOENT
+2024-11-18 18:26:15.631 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-18 18:26:15.640 [error] Error: Client is not running and can't be stopped. It's current state is: startFailed
+	at LanguageClient.shutdown (/home/manish-ach/dotfiles/.vscode-oss/extensions/ewen-lbh.vscode-hyprls-0.3.0-universal/node_modules/vscode-languageclient/lib/common/client.js:964:19)
+	at LanguageClient.stop (/home/manish-ach/dotfiles/.vscode-oss/extensions/ewen-lbh.vscode-hyprls-0.3.0-universal/node_modules/vscode-languageclient/lib/common/client.js:935:21)
+	at LanguageClient.stop (/home/manish-ach/dotfiles/.vscode-oss/extensions/ewen-lbh.vscode-hyprls-0.3.0-universal/node_modules/vscode-languageclient/lib/node/main.js:150:22)
+	at Object.deactivate (/home/manish-ach/dotfiles/.vscode-oss/extensions/ewen-lbh.vscode-hyprls-0.3.0-universal/out/extension.js:47:19)
+	at z_.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2024-11-18 18:26:15.640 [info] Extension host with pid 3648 exiting with code 0

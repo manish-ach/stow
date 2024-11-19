@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "bold",
+    "editor.fontFamily": "",
+    "editor.fontLigatures": false
+}

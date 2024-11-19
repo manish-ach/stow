@@ -1,0 +1,35 @@
+2024-11-18 19:41:42.516 [info] [main] Log level: Info
+2024-11-18 19:41:42.517 [info] [main] Validating found git in: "git"
+2024-11-18 19:41:42.517 [info] [main] Using git "2.47.0" from "git"
+2024-11-18 19:41:42.517 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-18 19:41:42.517 [info] > git rev-parse --show-toplevel [12ms]
+2024-11-18 19:41:42.517 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-11-18 19:41:42.517 [info] [Model][openRepository] Opened repository: /home/manish-ach/work/rust/wall
+2024-11-18 19:41:42.544 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-18 19:41:42.546 [info] > git config --get commit.template [18ms]
+2024-11-18 19:41:42.662 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-18 19:41:42.663 [info] > git rev-parse --show-toplevel [31ms]
+2024-11-18 19:41:42.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-11-18 19:41:42.678 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:41:42.697 [info] > git status -z -uall [13ms]
+2024-11-18 19:41:42.697 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-18 19:41:42.720 [info] > git rev-parse --show-toplevel [44ms]
+2024-11-18 19:41:42.720 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-18 19:41:42.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-11-18 19:41:42.733 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:41:42.734 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2024-11-18 19:41:42.739 [info] > git config --get commit.template [7ms]
+2024-11-18 19:41:42.751 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-18 19:41:42.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-18 19:41:42.759 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:41:42.773 [info] > git status -z -uall [9ms]
+2024-11-18 19:41:42.834 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [63ms]
+2024-11-18 19:41:42.916 [info] > git show --textconv :src/main.rs [7ms]
+2024-11-18 19:41:42.918 [info] > git ls-files --stage -- /home/manish-ach/work/rust/wall/src/main.rs [3ms]
+2024-11-18 19:41:43.133 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-18 19:41:44.397 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-18 19:41:44.402 [info] > git config --get commit.template [6ms]
+2024-11-18 19:41:44.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-18 19:41:44.403 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:41:44.415 [info] > git status -z -uall [7ms]
+2024-11-18 19:41:44.416 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]

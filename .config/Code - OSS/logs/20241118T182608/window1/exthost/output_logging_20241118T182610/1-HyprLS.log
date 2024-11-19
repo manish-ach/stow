@@ -1,0 +1,2 @@
+[Error - 6:26:10 PM] Hypr client: couldn't create connection to server.
+Launching server using command hyprls failed. Error: spawn hyprls ENOENT

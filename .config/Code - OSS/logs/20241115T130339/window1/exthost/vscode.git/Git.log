@@ -1,0 +1,37 @@
+2024-11-15 13:03:43.017 [info] [main] Log level: Info
+2024-11-15 13:03:43.017 [info] [main] Validating found git in: "git"
+2024-11-15 13:03:43.017 [info] [main] Using git "2.47.0" from "git"
+2024-11-15 13:03:43.017 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-15 13:03:43.017 [info] > git rev-parse --show-toplevel [11ms]
+2024-11-15 13:03:43.017 [info] > git rev-parse --git-dir --git-common-dir [40ms]
+2024-11-15 13:03:43.017 [info] [Model][openRepository] Opened repository: /home/manish-ach/hyprdots
+2024-11-15 13:03:43.017 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-15 13:03:43.017 [info] > git config --get commit.template [7ms]
+2024-11-15 13:03:43.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-15 13:03:43.030 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-15 13:03:43.036 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/manish-ach/hyprdots/.git/refs/remotes/origin/main'
+2024-11-15 13:03:43.045 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-15 13:03:43.045 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2024-11-15 13:03:43.115 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [55ms]
+2024-11-15 13:03:43.138 [info] > git rev-parse --show-toplevel [24ms]
+2024-11-15 13:03:43.145 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-15 13:03:43.145 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-15 13:03:43.367 [info] > git show --textconv :Configs/.config/spotify-flags.conf [6ms]
+2024-11-15 13:03:43.369 [info] > git ls-files --stage -- /home/manish-ach/hyprdots/Configs/.config/spotify-flags.conf [2ms]
+2024-11-15 13:03:43.374 [info] > git cat-file -s e973a473b426dcb673e5ad169d73c065836352cc [1ms]
+2024-11-15 13:03:43.418 [info] > git status -z -uall [365ms]
+2024-11-15 13:03:43.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-15 13:03:43.451 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-11-15 13:03:43.456 [info] > git config --get commit.template [13ms]
+2024-11-15 13:03:43.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [42ms]
+2024-11-15 13:03:43.520 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-11-15 13:03:43.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-11-15 13:03:43.544 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/manish-ach/hyprdots/.git/refs/remotes/origin/main'
+2024-11-15 13:03:43.548 [info] > git diff --name-status -z --diff-filter=ADMR 539d33fd8b88d2eee973aefe450bc428b58c7399...refs/remotes/origin/main [23ms]
+2024-11-15 13:03:43.551 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-11-15 13:03:43.562 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-15 13:03:43.569 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-15 13:03:43.923 [info] > git status -z -uall [367ms]
+2024-11-15 13:03:47.171 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-15 13:03:48.103 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-15 13:03:49.147 [info] > git check-ignore -v -z --stdin [1ms]
